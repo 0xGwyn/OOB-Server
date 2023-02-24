@@ -8,6 +8,9 @@ options {
 
         allow-query { any; };
 
+	#disabling zone transfer
+        allow-transfer { "none"; };
+
         recursion no;
 
         dnssec-validation auto;

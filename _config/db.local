@@ -12,3 +12,5 @@ ns2              IN      A       DOMAIN_IP
 *                IN      A   	   DOMAIN_IP
 @                IN      NS      ns1.DOMAIN_NAME.
 @                IN      NS      ns2.DOMAIN_NAME.
+aws              IN      A       169.254.169.254
+local            IN      A       127.0.0.1
